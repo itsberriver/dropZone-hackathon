@@ -5,10 +5,11 @@ import FileBackground from '../images/fileBackground.png'
 function DropZone(){
     return(
         <div className = 'dropzone-container'>
-            <p> ARASTRA TUS ARCHIVOS AQUÍ </p>
+            <p> ARRASTRA TUS ARCHIVOS AQUÍ </p>
             <img
             className = 'fileBackground-image'
-            src = {FileBackground} />
+            src = {FileBackground} 
+            alt = 'background for the dropzone container'/>
 
         </div>
     );
