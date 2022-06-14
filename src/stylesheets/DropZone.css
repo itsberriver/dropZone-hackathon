@@ -1,0 +1,20 @@
+p{
+    color: #FFFFFF;
+    position: absolute;
+    width: 640px;
+    height: 16px;
+    left: 91px;
+    top: 299px;
+
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 16px;
+
+}
+
+.fileBackground-image{
+    width: 822px;
+    height: 597px;
+    left: 53px;
+    top: 98px;
+}
