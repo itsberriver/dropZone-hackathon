@@ -1,8 +1,9 @@
-.button-component{
+.button{
     width: 822px;
     height: 56px;
     left: 53px;
     top: 790px;
+    cursor: pointer;
 
     background: #569B51;
     border-radius: 5px;
@@ -11,4 +12,8 @@
     font-size: 20px;
     color: #FFFFFF;
     line-height: 16px;
+}
+
+button:hover {
+    background-color: #2f4f80;
 }

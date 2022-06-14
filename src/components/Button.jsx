@@ -4,7 +4,7 @@ import '../stylesheets/Button.css';
 function Button({text, manageClick}){
     return(
         <button 
-            className = 'button-component'
+            className = 'button'
             onClick = {manageClick} >
             {text}
         </button>
