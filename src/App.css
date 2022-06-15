@@ -20,15 +20,14 @@ body{
 
 
 hr.line {
+  width: 389.05px;
   left: 69.1%;
   right: 3.89%;
   top: 50.67%;
   bottom: 49.33%;
-
-  width: 389.05px;
-  top: 456px;
-  left: 995px;
+  
   border: 2px solid #39424E;
+  margin-left: 69%;
   }
 
 
@@ -46,6 +45,7 @@ h6{
 
   color: #FFFFFF;
   position: relative;
+  max-width: 389px;
 
 }
 
@@ -63,8 +63,9 @@ h2{
   position: relative;
 }
 
-.login-welcome-container{
-  max-width: 389px;
+div.login-welcome-container{
+  display:block;
+  margin:0;
 }
 
 
