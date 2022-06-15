@@ -1,6 +1,7 @@
 *{
   background-color: #130F26;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 body{
@@ -19,18 +20,24 @@ body{
 
 
 hr.line {
+  left: 69.1%;
+  right: 3.89%;
+  top: 50.67%;
+  bottom: 49.33%;
+
   width: 389.05px;
   top: 456px;
   left: 995px;
   border: 2px solid #39424E;
   }
 
-.login-welcome-container{
-  display: flex;
-  flex-direction: column;
-}
 
 h6{  
+  left: 69.1%;
+  right: 3.89%;
+  top: 41.44%;
+  bottom: 54.78%;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -38,12 +45,26 @@ h6{
   letter-spacing: 0.4px;
 
   color: #FFFFFF;
+  position: relative;
+
 }
 
 h2{
+  left: 70.49%;
+  right: 5.28%;
+  top: 35.56%;
+  bottom: 60.44%;
+
   font-weight: 500;
   font-size: 34px;
   line-height: 36px;
   color: #FFFFFF;
+
+  position: relative;
 }
+
+.login-welcome-container{
+  max-width: 389px;
+}
+
 

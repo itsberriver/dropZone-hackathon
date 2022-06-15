@@ -16,7 +16,7 @@ function App() {
 
           <div className = 'login-welcome-container'>
             <h2>Bienvenido a DDrop</h2>
-            <h6>Para subir tus archivos de forma simple a drive,  puedes hacer LogIn a través de Google.</h6>
+            <h6>Para subir tus archivos de forma simple a drive, puedes hacer LogIn a través de Google.</h6>
             <hr className = 'line' />
             <LoginButton
               className = 'login-container'
