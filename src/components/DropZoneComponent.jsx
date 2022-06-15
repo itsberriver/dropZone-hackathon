@@ -1,8 +1,9 @@
 import React from 'react';
-import '../stylesheets/DropZone.css';
-import FileBackground from '../images/fileBackground.png'
+import '../stylesheets/DropZoneComponent.css';
+import FileBackground from '../images/fileBackground.png';
+import Dropzone, {useDropzone} from 'react-dropzone';
 
-function DropZone(){
+function DropZoneComponent(){
     return(
         <div className = 'dropzone-container'>
             <p> ARRASTRA TUS ARCHIVOS AQUÍ </p>
@@ -15,4 +16,4 @@ function DropZone(){
     );
 }
 
-export default DropZone;
+export default DropZoneComponent;
