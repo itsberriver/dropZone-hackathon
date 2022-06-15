@@ -1,11 +1,11 @@
 import React from 'react';
 import '../stylesheets/Button.css';
 
-function Button({ text, manageClick }){
+function Button({ text, addFile }){
     return(
         <button 
             className = 'button'
-            onClick = {manageClick} >
+            onClick = {addFile} >
             {text}
         </button>
     );
