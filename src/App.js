@@ -8,6 +8,8 @@ function App() {
     <div className="App">
         <>
           <div className = 'dropZone-container'>
+            <div className = 'green-container'>
+            </div>
             <DropZone/>
 
             <Button 
