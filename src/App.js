@@ -1,14 +1,16 @@
 import './App.css';
 import Button from './components/Button';
-import DropZone from './components/DropZone';
+import DropZoneComponent from './components/DropZoneComponent';
 import LoginButton from './components/LoginButton';
 import  { useEffect } from 'react';
 import useDrivePicker from 'react-google-drive-picker';
+import React, {useCallback} from 'react'
+
 
 
 function App() {
 
-  const [openPicker, data] = useDrivePicker();
+  const [openPicker, data, authResponse] = useDrivePicker();
 
   const handleOpenPicker = () => {
     openPicker({
@@ -37,10 +39,11 @@ function App() {
           <div className = 'dropZone-container'>
             <div className = 'green-container'>
             </div>
-            <DropZone/>
 
-            <Button 
-              text = 'Subir tus archivos' /> 
+              <DropZoneComponent/>
+
+              <Button 
+                text = 'Subir tus archivos' /> 
           </div>
 
           <div className = 'login-welcome-container'>
