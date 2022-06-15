@@ -5,22 +5,26 @@ import LoginButton from './components/LoginButton';
 
 function App() {
   return (
-    <>
-      <div className="App">
-          <DropZone/>
+    <div className="App">
+        <>
+          <div className = 'DropZone-container'>
+            <DropZone/>
 
-          <Button 
-            text = 'Subir tus archivos' /> 
+            <Button 
+              text = 'Subir tus archivos' /> 
           </div>
 
           <div className = 'login-welcome-container'>
+            <h2>Bienvenido a DDrop</h2>
+            <h6>Para subir tus archivos de forma simple a drive,  puedes hacer LogIn a través de Google.</h6>
             <hr className = 'line' />
             <LoginButton
               className = 'login-container'
               text = 'Login con Google'/>
           </div>
-    </>
+        </>
 
+    </div>
           
 
   );

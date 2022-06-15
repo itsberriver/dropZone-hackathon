@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
 .login-button{
     display: flex;
     padding-top: 9px;

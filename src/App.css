@@ -3,6 +3,13 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body{
+  margin-left: 53px;
+  margin-right: 55.98px;
+  margin-top: 98px;
+  margin-bottom: 54px;
+}
+
 .fileBackground-image{
   width: 822px;
   height: 597px;
@@ -21,5 +28,22 @@ hr.line {
 .login-welcome-container{
   display: flex;
   flex-direction: column;
+}
+
+h6{  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  letter-spacing: 0.4px;
+
+  color: #FFFFFF;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 36px;
+  color: #FFFFFF;
 }
 
