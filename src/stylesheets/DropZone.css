@@ -1,15 +1,15 @@
 p{
     color: #FFFFFF;
     position: absolute;
-    width: 670px;
-    height: 16px;
-    left: 91px;
-    top: 299px;
-    padding: 91px;;
+    padding: 91px;
+    display: flex;
+    justify-content: center;
 
     font-weight: 500;
     font-size: 40px;
     line-height: 16px;
+    margin-top: 200px;
+
 
 }
 
