@@ -1,14 +1,11 @@
 .login-button{
     display: flex;
-    padding-top: 9px;
+    padding: 10px 25px;
     align-items: center;
-    gap:10px;
+    gap:67px;
 
-    position: absolute;
+    
     left: 69.1%;
-    right: 3.89%;
-    top: 55.89%;
-    bottom: 39.11%;
 
     border: 1px solid #FFFFFF;
     border-radius: 5px;
@@ -17,6 +14,7 @@
     font-size: 16px;
     line-height: 20px;
     position: relative;
+    min-width: 389px;
     
 }
 
@@ -32,6 +30,11 @@
     
 }
 
+button.login-button{
+    padding: 10px 25px;
+}
 
 
-
+#text{
+    margin:auto;
+}
