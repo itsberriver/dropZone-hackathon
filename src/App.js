@@ -12,8 +12,9 @@ function App() {
           <Button 
             text = 'Subir tus archivos' /> 
 
-          <LoginButton 
-            text = 'Login con Google'/>
+          <LoginButton
+          className = 'login-container'
+          text = 'Login con Google'/>
 
           
       </div>

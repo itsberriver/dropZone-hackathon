@@ -12,6 +12,7 @@ function LoginButton ({ text, loginClick }){
                 className = 'google-logo'
                 src = {GoogleLogo} 
                 alt = 'google logo' /> 
+            {text}
         </button>
     );
 }
