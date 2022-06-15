@@ -10,3 +10,16 @@
   top: 98px;
 }
 
+
+hr.line {
+  width: 389.05px;
+  top: 456px;
+  left: 995px;
+  border: 2px solid #39424E;
+  }
+
+.login-welcome-container{
+  display: flex;
+  flex-direction: column;
+}
+
