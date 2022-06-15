@@ -7,7 +7,7 @@ body{
   margin-left: 53px;
   margin-right: 55.98px;
   margin-top: 98px;
-  margin-bottom: 54px;
+  margin-bottom: 154px;
   background-color: #130F26;
 
 }
@@ -69,9 +69,10 @@ h2{
 }
 
 div.login-welcome-container{
-  margin-top: -534px;
+  margin-top: -903px;
   margin-left: -53px;
   margin-right: -55.98px;
+  margin-bottom: 423px;
 
 }
 
@@ -84,4 +85,8 @@ div.login-welcome-container{
   filter: blur(70px);
   transform: matrix(1, 0, 0, -1, 0, 0);
   z-index: -1;
+}
+div.dropZone-container button.button {
+  margin-bottom: 20rem;
+  
 }
