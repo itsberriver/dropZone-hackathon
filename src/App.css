@@ -9,6 +9,7 @@ body{
   margin-right: 55.98px;
   margin-top: 98px;
   margin-bottom: 54px;
+
 }
 
 .fileBackground-image{
@@ -26,8 +27,10 @@ hr.line {
   top: 50.67%;
   bottom: 49.33%;
 
-  border: 2px solid #39424E;
+  border: 1px solid #39424E;
   margin-left: 69%;
+  margin-top: 49px;
+  margin-bottom: 47px;
   }
 
 
@@ -42,6 +45,7 @@ h6{
   line-height: 17px;
   text-align: justify;
   letter-spacing: 0.4px;
+  margin-top: 17px;
 
   color: #FFFFFF;
   position: relative;
@@ -64,10 +68,9 @@ h2{
 }
 
 div.login-welcome-container{
-  margin-top: -352px;
+  margin-top: -534px;
   margin-left: -53px;
   margin-right: -55.98px;
 
 }
-
 
