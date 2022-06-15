@@ -1,7 +1,7 @@
 import React from 'react';
 import '../stylesheets/Button.css';
 
-function Button({text, manageClick}){
+function Button({ text, manageClick }){
     return(
         <button 
             className = 'button'

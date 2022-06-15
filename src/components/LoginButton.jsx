@@ -1,15 +1,18 @@
 import React from 'react';
 import '../stylesheets/LoginButton.css';
-import googleLogo from '../images/googleLogo.png'
+import GoogleLogo from '../images/googleLogo.png'
 
 
-function LoginButton (text,loginClick,logo){
+function LoginButton ({ text, loginClick }){
     return(
         <button 
-            className = 'login-button'
-            onClick = {loginClick} 
-            text = { text }
-            logo = { googleLogo }/>
+            className = 'login-button' 
+            onClick = {loginClick}>
+            <img 
+                className = 'google-logo'
+                src = {GoogleLogo} 
+                alt = 'google logo' /> 
+        </button>
     );
 }
 
