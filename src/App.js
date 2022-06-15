@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
         <>
-          <div className = 'DropZone-container'>
+          <div className = 'dropZone-container'>
             <DropZone/>
 
             <Button 
