@@ -3,11 +3,11 @@ import '../stylesheets/LoginButton.css';
 import GoogleLogo from '../images/googleLogo.png'
 
 
-function LoginButton ({ text, handleOpenPicker }){
+function LoginButton ({ text, onClick }){
     return(
         <button 
             className = 'login-button' 
-            onClick = {()=>handleOpenPicker()}>
+            onClick = {onClick}>
             <img 
                 className = 'google-logo'
                 src = {GoogleLogo} 

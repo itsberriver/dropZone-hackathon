@@ -49,12 +49,11 @@ function App() {
           <div className = 'login-welcome-container'>
             <h2>Bienvenido a DDrop</h2>
             <h6>Para subir tus archivos de forma simple a drive, puedes hacer LogIn a través de Google.</h6>
-            <button
-            onClick = {()=>handleOpenPicker()}>HOLA DALE MAMI</button>
             <hr className = 'line' />
             <LoginButton
               className = 'login-container'
-              text = 'Login con Google'></LoginButton>
+              text = 'Login con Google'
+              onClick = {()=>handleOpenPicker()} />
           </div>
         </>
 
