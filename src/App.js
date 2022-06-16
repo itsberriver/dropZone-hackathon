@@ -4,19 +4,21 @@ import DropZoneComponent from './components/DropZoneComponent';
 import LoginButton from './components/LoginButton';
 import  { useEffect } from 'react';
 import useDrivePicker from 'react-google-drive-picker';
-import React, {useCallback} from 'react'
+import React, {useCallback} from 'react';
+import Dropzone from 'react-dropzone';
+
 
 
 
 function App() {
 
-  const [openPicker, data, authResponse] = useDrivePicker();
+  const [openPicker, data] = useDrivePicker();
 
   const handleOpenPicker = () => {
     openPicker({
-      clientId: "390878779732-ihu8an4kit03pgvd3dot4pfpmf51m32h.apps.googleusercontent.com",
+      clientId: "390878779732-ro09lpntbg7tif1jjifgetsn6j9qunnt.apps.googleusercontent.com",
       developerKey: "AIzaSyAFl2nbR88tJJERFjYV3Nn2oEqcwnE4UkM",
-      token: "ya29.a0ARrdaM-bTYERtanoMQPpAeWqZKxOZbUuZyNhnoYdvorXJoUXrzakaOuguXfiyetnUoSQrigm3aYcBw6IPKv3iZY93RWFjsslzr4vjITPEcfzK-zNYMjP-7uWMshJOZFeXZ__KbXZgEqmRVJMU_pV1-auHf05",
+      token: "AIzaSyAWWBTwOkniMgvQwmPN27DdVTh4qczAL2w",
       viewId: "DOCS_IMAGES_AND_VIDEOS",
       showUploadView: true,
       showUploadFolders: true,
@@ -32,6 +34,12 @@ function App() {
     },[data])
 
 
+  class ImgDropAndCrop extends Component {
+    handleOnDrop = (files, rejectedfiles) => {
+      console.log(files)
+      console.log('rejected files are' ,rejectedfiles)
+    }
+  }
 
   return (
     <div className="App">
@@ -39,8 +47,10 @@ function App() {
           <div className = 'dropZone-container'>
             <div className = 'green-container'>
             </div>
-
+            <Dropzone onDrop={this.handleOnDrop}>
               <DropZoneComponent/>
+
+            </Dropzone>
 
               <Button 
                 text = 'Subir tus archivos' /> 

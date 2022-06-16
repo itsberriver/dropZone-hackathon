@@ -81,9 +81,10 @@ div.login-welcome-container{
   width: 822px;
   height: 597px;
 
+
   background-color: #6AB972;
   filter: blur(70px);
-  transform: matrix(1, 0, 0, -1, 0, 0);
+  transform: matrix(1, , 0, -1, 0, 0);
   z-index: -1;
 }
 div.dropZone-container button.button {
