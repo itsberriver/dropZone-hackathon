@@ -2,6 +2,7 @@ import "../stylesheets/DropZoneComponent.css"
 import FileBackground from "../images/fileBackground.png"
 import React, {useCallback, useState} from "react"
 import {useDropzone} from "react-dropzone"
+import Button from '../components/Button'
 
 
 function DropZoneComponent() {
@@ -36,6 +37,8 @@ function DropZoneComponent() {
 				alt = 'background for the dropzone container'/>
 
 			<form>{choosedImages}</form>
+			<Button 
+            text = 'Subir tus archivos' /> 
 		</div>
 
 	)
