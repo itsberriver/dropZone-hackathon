@@ -14,23 +14,29 @@ function App() {
 
 	const handleOpenPicker = () => {
 		openPicker({
-			clientId: "390878779732-ro09lpntbg7tif1jjifgetsn6j9qunnt.apps.googleusercontent.com",
+			clientId: "390878779732-ihu8an4kit03pgvd3dot4pfpmf51m32h.apps.googleusercontent.com",
 			developerKey: "AIzaSyAFl2nbR88tJJERFjYV3Nn2oEqcwnE4UkM",
 			token: "AIzaSyAWWBTwOkniMgvQwmPN27DdVTh4qczAL2w",
-			viewId: "DOCS_IMAGES_AND_VIDEOS",
+			viewId: "DOCS",
 			showUploadView: true,
 			showUploadFolders: true,
 			supportDrives: true,
 			multiselect: true,
-		})
-	}
 
-	useEffect( () => {
-		if (data){
-			data.docs.map((i) => console.log(i))
-		}
-	},[data])
-  
+			callbackFunction: (data) => {
+				if (data.action === "cancel") {
+					console.log("User clicked cancel/close button")
+				}
+				console.log(data)
+			},
+		})
+		
+		useEffect( () => {
+			if (data){
+				data.docs.map((i) => console.log(i))
+			}
+		},[data])
+	}
 
 	return (
 		<div className="App">
@@ -55,8 +61,6 @@ function App() {
 			</>
 
 		</div>
-          
-
 	)
 }
 
