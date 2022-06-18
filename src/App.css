@@ -83,7 +83,7 @@ div.login-welcome-container{
 
 
   background-color: #6AB972;
-  filter: blur(70px);
+  filter: blur(13px);
   transform: matrix(1, 0, -1, 0, 0);
   z-index: -1;
 }
