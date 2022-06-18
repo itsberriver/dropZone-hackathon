@@ -38,7 +38,8 @@ function DropZoneComponent() {
 
 			<form>{choosedImages}</form>
 			<Button 
-            text = 'Subir tus archivos' /> 
+            text = 'Subir tus archivos' 
+			onClick = {onDrop}/> 
 		</div>
 
 	)
