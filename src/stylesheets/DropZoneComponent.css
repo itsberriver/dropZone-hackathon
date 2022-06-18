@@ -16,14 +16,19 @@ p{
 }
 
 form{
-    position: relative;
+    position: absolute;
     display: flex;
     z-index: 3;
 }
 
-img.fileBackground-image{
+.fileBackground-image{
     display: flex;
     z-index: -3;
+}
+
+div.choosed-image-container{
+    padding-inline-start:10rem;
+    margin-top: 2.8rem;
 }
 
 

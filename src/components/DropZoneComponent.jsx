@@ -18,15 +18,15 @@ function DropZoneComponent() {
 
 	const {getRootProps, getInputProps} = useDropzone({onDrop})
 	const choosedImages = chooseImage?.map(file => (
-        <div>
-            <img src={file.preview} style={{width:'800px', heigth: '500px'}} alt='upload pic' />
+        <div className = "choosed-image-container">
+            <img src={file.preview} style={{width:'500px', heigth: '500px'}} alt='upload pic' />
         </div>
     ))
 
 	return (
-		<div className = 'choosed-image-container'{...getRootProps()}>
-
-
+		<>
+		<form>{choosedImages}</form>
+		<div className = 'default-container'{...getRootProps()}>
 			<p> ARRASTRA TUS ARCHIVOS AQUÍ </p>
 
 			<input  {...getInputProps()} />
@@ -35,12 +35,12 @@ function DropZoneComponent() {
 				className = 'fileBackground-image'
 				src = {FileBackground} 
 				alt = 'background for the dropzone container'/>
-
-			<form>{choosedImages}</form>
 			<Button 
             text = 'Subir tus archivos' 
 			onClick = {onDrop}/> 
 		</div>
+
+		</>
 
 	)
 }

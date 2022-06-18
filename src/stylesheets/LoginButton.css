@@ -34,6 +34,7 @@
 
 button.login-button{
     padding: 10px 25px;
+    max-width: max-content;
 }
 
 
