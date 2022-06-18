@@ -25,7 +25,7 @@ function DropZoneComponent() {
 
 	return (
 		<>
-		<form>{choosedImages}</form>
+		<form className="image-dragged">{choosedImages}</form>
 		<div className = 'default-container'{...getRootProps()}>
 			<p> ARRASTRA TUS ARCHIVOS AQUÍ </p>
 

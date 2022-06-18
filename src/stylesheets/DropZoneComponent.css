@@ -1,14 +1,14 @@
 p{
     color: #FFFFFF;
     position: absolute;
-    padding: 91px;
     display: flex;
     justify-content: center;
 
     font-weight: 500;
-    font-size: 40px;
+    font-size: 20px;
     line-height: 16px;
-    margin-top: 200px;
+    margin-top: 300px;
+    margin-left: 250px;
 
     min-width: 2rem;
 
@@ -29,6 +29,12 @@ form{
 div.choosed-image-container{
     padding-inline-start:10rem;
     margin-top: 2.8rem;
+    
+}
+
+div.choosed-image-container img{
+    max-height: 70%;
+    max-width: 70%;
 }
 
 
