@@ -13,9 +13,15 @@ p{
 
 }
 
-.fileBackground-image{
-    width: 822px;
-    height: 597px;
-    left: 53px;
-    top: 98px;
+form{
+    position: relative;
+    display: flex;
+    z-index: 3;
 }
+
+img.fileBackground-image{
+    display: flex;
+    z-index: -3;
+}
+
+

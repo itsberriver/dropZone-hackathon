@@ -1,6 +1,5 @@
 *{
   font-family: 'Montserrat', sans-serif;
-
 }
 
 body{
@@ -17,6 +16,7 @@ body{
   height: 597px;
   left: 53px;
   top: 98px;
+  
 }
 
 
@@ -84,7 +84,7 @@ div.login-welcome-container{
 
   background-color: #6AB972;
   filter: blur(70px);
-  transform: matrix(1, , 0, -1, 0, 0);
+  transform: matrix(1, 0, -1, 0, 0);
   z-index: -1;
 }
 div.dropZone-container button.button {
