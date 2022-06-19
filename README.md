@@ -23,13 +23,13 @@ El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el ob
 - Añadir al readme la calidad de código que devuelve alguna de las siguientes plataformas: Codefactor, Sonarcloud o alguna otra que os guste más.
 
 ## 📄 DOCUMENTATION 📄
-##### Tecnologías utilizadas
+#####Tecnologías utilizadas
 - React
 - CSS
 - React Drive Api Picker
 - React Dropzone
 
-##### Por qué estas tecnologías
+#####Por qué estas tecnologías
 - **React:** Porque puedo basar el diseño del front a partir de componentes, por lo cual me ahorro sobreescribir código reutilizando componentes.
 
 - **CSS:** Podría haber usado frameworks como Tailwind pero he decidido utilizar CSS porque al habernos dado el esbozo del front en Figma, este permite inspeccionar el elemento y ver sus características en CSS, por lo cual ahorraría ese tiempo de ir viendo qué estilos tienen sobre la marcha, y al ser una hackathon, es importante ahorrarse tiempo en x cosas para poder completar otras. La segunda 
@@ -40,7 +40,7 @@ El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el ob
 
 - **React Router Dom:** Para poder crear las rutas .
 
-##### Distribución de carpetas y arquitectura
+#####Distribución de carpetas y arquitectura
 El proyecto cuenta con 4 carpetas principales:
 - **components:** Donde se encuentran todos los componentes creados para luego irlos utilizando según necesitemos en las vistas
 - **images:** En donde se encuentran todas las imagenes, en este caso, solo una.
@@ -50,17 +50,17 @@ El proyecto cuenta con 4 carpetas principales:
 En la raiz de la carpeta SRC, se encuentra el App.js, en donde se encuentran las rutas de la página para indicar qué vista queremos que se muestre según el path marcado.
 
 
-##### Animación componentes
+#####Animación componentes
 Los botones y los inputs del login cuentan con hovers y cambios de estilo al hacer clic o pasar por encima de ellos con el ratón.
 
 
-## ➕ Cloning repository ➕
+## ⚙️ Cloning repository ⚙️
 Si quieres clonar el reposiitorio, ejecuta el siguiente comando:
 `$ git clone https://github.com/itsberriver/dropZone-hackathon.git`
 
 Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando a ti: -------------------
 
-## 🖥️ Installing Modules 🖥️
+## ⚒️ Installing Modules ⚒️
 Para ver el proyecto, necesitaras ejecutar los siguientes comandos para instalar las dependencias utilizadas y de esta forma poder tener el proyecto con todas sus funciones y vistas correctamente.
 
  `npm install`
