@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../stylesheets/FormContainer.css';
-import Button from '../components/Button.jsx';
 
 function FormContainer(){
 
@@ -26,12 +25,12 @@ function FormContainer(){
                         placeholder = 'email'
                     /> 
             </div>
-            <div className = 'button-container'>
-                <Button 
-                type = 'submit' 
-                text='LOGIN' 
-                onClick={() => navigate("/")}/>
-            </div>
+                <button 
+                className = 'login-button-container'
+                type='submit' 
+                onClick={() => navigate("/")}>
+                Login
+                </button>
         </form>
     
     );
