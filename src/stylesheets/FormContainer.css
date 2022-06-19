@@ -1,5 +1,5 @@
-/* login-form {
-    background: #2B3458;
+section.login-container {
+    background: #6AB972;
     width:313px;
     height:406px;
     box-sizing: border-box;
@@ -10,9 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 1.2rem;
-    
-    
+    padding-top: 1.2rem; 
 }
 
 input{
@@ -31,25 +29,17 @@ input{
     
 }
 
-button{
+button.button{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: #F8B1C8;
-    border-color: #F8B1C8;
+    background-color: #316b37;
+    border-color: #6AB972;
     font-size: 18px;
+    border-radius: 50px;
+    width: 16rem;
     
-}
-
-
-button:hover {
-    background-color: #646C9B;
-    border-color: #646C9B;
-}
-
-.boton-clic {
-    background-color: #646C9B;
 }
 
 div{
@@ -63,4 +53,4 @@ div{
     width: 8rem;
     height: 8rem;
 }
- */
+

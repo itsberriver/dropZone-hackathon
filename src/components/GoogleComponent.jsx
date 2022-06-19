@@ -1,9 +1,9 @@
 import React from "react"
-import "../stylesheets/LoginButton.css"
+import "../stylesheets/GoogleComponent.css"
 import GoogleLogo from "../images/googleLogo.png"
 
 
-function LoginButton ({ text, onClick }){
+function GoogleComponent ({ text, onClick }){
 	return(
 		<button 
 			className = 'login-button' 
@@ -17,4 +17,4 @@ function LoginButton ({ text, onClick }){
 	)
 }
 
-export default LoginButton
+export default GoogleComponent

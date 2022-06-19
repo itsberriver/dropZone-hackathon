@@ -1,29 +1,14 @@
-/* 
 
-p{
+
+/* p{
     color: #ffff;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 .login-container{
     margin: auto;
     margin-top: 40px;
-}
-
-.unregistered-text{
-    
-    font-size: 14px;
-    font-weight: 300;
-    margin-bottom: 0;
-    margin-top: 2rem;
-}
-
-.register-here-text{
-    font-weight: 700;
-    font-size: 16px;
-    text-decoration-line: underline;
-    margin-top: 0;
 }
 
 .arrow-icon{
@@ -35,29 +20,22 @@ p{
     padding-right: 17rem;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 30px;
-}
-
-.button{
+/* .button{
     margin:auto;
     margin-top: 30px;   
     margin-bottom:0;
     border-radius: 40px;
     
-}
+} */
 
-form.login-form{
+/* form.login-form{
     width: 313px;
     height:426px;
     margin: auto;
     padding-top: 2rem;
     box-sizing: border-box;
     margin-top: 2rem;
-}
+} */
 
 .login-container img.image{
     background: none;
@@ -65,6 +43,6 @@ form.login-form{
     height: 20rem;
 }
 
-input#name, input#email{
+/* input#name, input#email{
     margin:0.5rem;
-} */
+}  */

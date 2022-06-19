@@ -4,7 +4,7 @@ import Button from '../components/Button.jsx';
 
 function FormContainer(){
     return(
-        <form className = 'form' >
+        <form className = 'login-form' >
             <div>
                     <input 
                         type= 'text' 
@@ -22,7 +22,9 @@ function FormContainer(){
                         placeholder = 'email'
                     /> 
             </div>
-            <Button type = 'submit' text='LOGIN' />
+            <div className = 'button-container'>
+                <Button type = 'submit' text='LOGIN' />
+            </div>
         </form>
     
     );
