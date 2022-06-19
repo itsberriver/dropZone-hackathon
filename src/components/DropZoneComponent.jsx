@@ -19,7 +19,7 @@ function DropZoneComponent() {
 	const {getRootProps, getInputProps} = useDropzone({onDrop})
 	const choosedImages = chooseImage?.map(file => (
         <div className = "choosed-image-container">
-            <img src={file.preview} style={{width:'500px', heigth: '500px'}} alt='upload pic' />
+            <img src={file.preview} style={{width:'22rem', heigth: '22rem'}} alt='upload pic' />
         </div>
     ))
 

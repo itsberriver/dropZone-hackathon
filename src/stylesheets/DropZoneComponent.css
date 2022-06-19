@@ -27,14 +27,13 @@ form{
 }
 
 div.choosed-image-container{
-    padding-inline-start:10rem;
-    margin-top: 2.8rem;
-    
+    padding-inline-start: 15rem;
+    padding-top: 3rem;
 }
 
-div.choosed-image-container img{
-    max-height: 70%;
-    max-width: 70%;
+.choosed-image-container img{
+    display:block;
+    margin: auto;
 }
 
 
