@@ -1,8 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../stylesheets/FormContainer.css';
 import Button from '../components/Button.jsx';
 
 function FormContainer(){
+
+    const navigate = useNavigate();
+
     return(
         <form className = 'login-form' >
             <div>
@@ -23,7 +27,10 @@ function FormContainer(){
                     /> 
             </div>
             <div className = 'button-container'>
-                <Button type = 'submit' text='LOGIN' />
+                <Button 
+                type = 'submit' 
+                text='LOGIN' 
+                onClick={() => navigate("/")}/>
             </div>
         </form>
     

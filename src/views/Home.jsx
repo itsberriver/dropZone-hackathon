@@ -1,10 +1,8 @@
 import React from "react"
-import DropZoneComponent from "./components/DropZoneComponent"
+import DropZoneComponent from "../components/DropZoneComponent"
 import useDrivePicker from "react-google-drive-picker"
-import LoginButton from "./components/LoginButton"
+import LoginButton from "../components/GoogleComponent"
 import  { useEffect } from "react"
-import { BrowserRouter, Link, Routes, Route} from 'react-router-dom';
-import Login from './views/Login'
 
 
 function Home() {
@@ -32,36 +30,20 @@ if (data){
 
 return (
     <>
-<BrowserRouter>
-    <header > 
-        <Link to='/' ></Link>
-        <Link to='/login'></Link>
-    </header>
-
-    <Routes>
-        {/* <Route exact path="/" element={ <Home/> } /> */}
-        <Route exact path="/login" element={ <Login />} />
-
-
-        </Routes>
-
-
-        </BrowserRouter>
-        <div className = 'dropZone-container'>
-        <div className = 'green-container'>
-        </div>
-        <DropZoneComponent></DropZoneComponent>
+    <div className = 'dropZone-container'>
+        <div className = 'green-container'/>
+            <DropZoneComponent />
         </div>
 
         <div className = 'login-welcome-container'>
-        <h2>Bienvenido a DDrop</h2>
-        <h6>Para subir tus archivos de forma simple a drive, puedes hacer LogIn a través de Google.</h6>
-        <hr className = 'line' />
-        <LoginButton
-        className = 'login-container'
-        text = 'Subir archivos desde Drive'
-        onClick = {()=>handleOpenPicker()} 
-        type = "button"/>
+            <h2>Bienvenido a DDrop</h2>
+            <h6>Para subir tus archivos de forma simple a drive, puedes hacer LogIn a través de Google.</h6>
+            <hr className = 'line' />
+            <LoginButton
+            className = 'login-container'
+            text = 'Subir archivos desde Drive'
+            onClick = {()=>handleOpenPicker()} 
+            type = "button"/>
     </div>
         </>
 
