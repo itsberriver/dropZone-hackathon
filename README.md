@@ -29,7 +29,7 @@ El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el ob
 - React Drive Api Picker
 - React Dropzone
 
-#####Por qué estas tecnologías
+#### Por qué estas tecnologías
 - **React:** Porque puedo basar el diseño del front a partir de componentes, por lo cual me ahorro sobreescribir código reutilizando componentes.
 
 - **CSS:** Podría haber usado frameworks como Tailwind pero he decidido utilizar CSS porque al habernos dado el esbozo del front en Figma, este permite inspeccionar el elemento y ver sus características en CSS, por lo cual ahorraría ese tiempo de ir viendo qué estilos tienen sobre la marcha, y al ser una hackathon, es importante ahorrarse tiempo en x cosas para poder completar otras. La segunda 
