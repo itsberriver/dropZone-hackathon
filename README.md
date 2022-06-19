@@ -1,6 +1,11 @@
 # 📸  DDROP  📸
 
 ## USAGE
+<img width="1516" alt="Captura de Pantalla 2022-06-19 a las 19 51 45" src="https://user-images.githubusercontent.com/99019637/174497041-f4f8a1eb-2dcb-474b-a860-1aa0deb0e232.png">
+
+<img width="1511" alt="Captura de Pantalla 2022-06-19 a las 19 52 01" src="https://user-images.githubusercontent.com/99019637/174497039-85504fbc-3a7e-496c-88fa-ab560c8e4960.png">
+<img width="1044" alt="Captura de Pantalla 2022-06-19 a las 21 09 29" src="https://user-images.githubusercontent.com/99019637/174497046-ba1cb496-3ece-47c4-82d0-cc22fd421a10.png">
+<img width="1526" alt="Captura de Pantalla 2022-06-19 a las 19 52 23" src="https://user-images.githubusercontent.com/99019637/174497058-2e11bd33-4780-42e0-922c-43d5633c0a63.png">
 
 
 ## ⌛ SOBRE EL PROYECTO ⌛
@@ -58,7 +63,7 @@ Los botones y los inputs del login cuentan con hovers y cambios de estilo al hac
 Si quieres clonar el reposiitorio, ejecuta el siguiente comando:
 `$ git clone https://github.com/itsberriver/dropZone-hackathon.git`
 
-Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando a ti: -------------------
+Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando a ti: https://drop-zone-hackathon.vercel.app/
 
 ## ⚒️ Installing Modules ⚒️
 Para ver el proyecto, necesitaras ejecutar los siguientes comandos para instalar las dependencias utilizadas y de esta forma poder tener el proyecto con todas sus funciones y vistas correctamente.
@@ -94,6 +99,10 @@ La aplicación se cargará automáticamente en tu buscador configurado por defec
 
 ## 👩‍💻 Developer 👩‍💻
 - [Jessica berriver](https://github.com/itsberriver) ( [ Linkedin here ](https://www.linkedin.com/in/jessicaberriver/))
+
+## ✅ CALIDAD DE CÓDIGO ✅
+<img width="2203" alt="Captura de Pantalla 2022-06-19 a las 21 15 39" src="https://user-images.githubusercontent.com/99019637/174497031-781a6117-e72a-4ab5-a0ec-6aa86261488b.png">
+
 
 ## 👐 AGRADECIMIENTOS 👐
  A Barcelona Digital Talent  y Creu Roja por organizar esta Hackathon y darnos oportunidad a los junior a ser visibilizados por alrededor de 25 empresas. A Mobile World Capital y a Nuewe por impulsar esta Hackathon.Finalmente a Factoria F4, por ser el centro donde me estoy formando y el cual participa en esta hackathon como centro formador.
