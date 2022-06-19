@@ -1,0 +1,10 @@
+form.login-form{
+    display:flex;
+    flex-direction:column;
+    margin: 2rem;
+}
+
+.input-username{
+    margin: 0.5rem;
+}
+

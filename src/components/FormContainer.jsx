@@ -8,7 +8,7 @@ function FormContainer(){
 
     return(
         <form className = 'login-form' >
-            <div>
+            <div className = 'input-username'>
                     <input 
                         type= 'text' 
                         id='name' 
@@ -17,7 +17,7 @@ function FormContainer(){
                     />
             </div>
 
-            <div>
+            <div className = 'input-username'>
                     <input 
                         type = 'email' 
                         id='name' 
