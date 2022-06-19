@@ -8,12 +8,12 @@ Este es un proyecto que forma parte de la fase online de la Hackathon que se org
 
 El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el objetivo de mejorar la experiencia de usuario al subir arhivos a una web y, como extra, hacer que estos se puedan conectar con la API de Google Drive.
 
-#####Las historias de usuarix son las siguientes:
+#### Las historias de usuarix son las siguientes:
 - Desarrollar las vistas que se observan más arriba.
 - Crear las vistas de Login y Register y que redirijan a la vista que hemos hecho anteriormente.
 - Finalmente, hacer el deploy del proyecto.
 
-#####REQUISITOS EXTRAS
+#### REQUISITOS EXTRAS
 
 - Permitir al usuario agregar archivos a su cuenta de Google Drive a través de la API de Google (es posible utilizar librerías, no es necesario la implementación directa de la API)
 - Mejorar el diseño y hacerlo responsive
@@ -23,7 +23,7 @@ El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el ob
 - Añadir al readme la calidad de código que devuelve alguna de las siguientes plataformas: Codefactor, Sonarcloud o alguna otra que os guste más.
 
 ## 📄 DOCUMENTATION 📄
-#####Tecnologías utilizadas
+#### Tecnologías utilizadas
 - React
 - CSS
 - React Drive Api Picker
@@ -40,7 +40,7 @@ El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el ob
 
 - **React Router Dom:** Para poder crear las rutas .
 
-#####Distribución de carpetas y arquitectura
+#### Distribución de carpetas y arquitectura
 El proyecto cuenta con 4 carpetas principales:
 - **components:** Donde se encuentran todos los componentes creados para luego irlos utilizando según necesitemos en las vistas
 - **images:** En donde se encuentran todas las imagenes, en este caso, solo una.
@@ -50,7 +50,7 @@ El proyecto cuenta con 4 carpetas principales:
 En la raiz de la carpeta SRC, se encuentra el App.js, en donde se encuentran las rutas de la página para indicar qué vista queremos que se muestre según el path marcado.
 
 
-#####Animación componentes
+#### Animación componentes
 Los botones y los inputs del login cuentan con hovers y cambios de estilo al hacer clic o pasar por encima de ellos con el ratón.
 
 
