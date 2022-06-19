@@ -3,7 +3,7 @@
 ## USAGE
 
 
-## SOBRE EL PROYECTO
+## ⌛ SOBRE EL PROYECTO ⌛
 Este es un proyecto que forma parte de la fase online de la Hackathon que se organiza en el marco del proyecto BCN Inclusive Coding. 
 
 El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el objetivo de mejorar la experiencia de usuario al subir arhivos a una web y, como extra, hacer que estos se puedan conectar con la API de Google Drive.
@@ -13,7 +13,7 @@ El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el ob
 - Crear las vistas de Login y Register y que redirijan a la vista que hemos hecho anteriormente.
 - Finalmente, hacer el deploy del proyecto.
 
-##### MEJORAS QUE SE PUEDEN IMPLEMENTAR
+#####REQUISITOS EXTRAS
 
 - Permitir al usuario agregar archivos a su cuenta de Google Drive a través de la API de Google (es posible utilizar librerías, no es necesario la implementación directa de la API)
 - Mejorar el diseño y hacerlo responsive
@@ -22,7 +22,7 @@ El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el ob
 - podéis modular las cards y estructura a vuestro gusto. Si lo hacéis incluid una foto del prototipo si es que lo hacéis a través de un diseño previo de Figma, Sketch, etc.
 - Añadir al readme la calidad de código que devuelve alguna de las siguientes plataformas: Codefactor, Sonarcloud o alguna otra que os guste más.
 
-## DOCUMENTATION
+## 📄 DOCUMENTATION 📄
 ##### Tecnologías utilizadas
 - React
 - CSS
@@ -54,13 +54,13 @@ En la raiz de la carpeta SRC, se encuentra el App.js, en donde se encuentran las
 Los botones y los inputs del login cuentan con hovers y cambios de estilo al hacer clic o pasar por encima de ellos con el ratón.
 
 
-## Cloning repository
+## ➕ Cloning repository ➕
 Si quieres clonar el reposiitorio, ejecuta el siguiente comando:
 `$ git clone https://github.com/itsberriver/dropZone-hackathon.git`
 
 Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando a ti: -------------------
 
-## Installing Modules
+## 🖥️ Installing Modules 🖥️
 Para ver el proyecto, necesitaras ejecutar los siguientes comandos para instalar las dependencias utilizadas y de esta forma poder tener el proyecto con todas sus funciones y vistas correctamente.
 
  `npm install`
@@ -71,14 +71,14 @@ Para ver el proyecto, necesitaras ejecutar los siguientes comandos para instalar
 
  `$ npm install react-router-dom@6`
 
-## Run the project
+## 💻 Run the project 💻
 Para poder abrir ver la página, ejecuta el siguiente comando:
 
  `npm start`
 
 La aplicación se cargará automáticamente en tu buscador configurado por defecto en tu dispositivo y será ejecutado en tu localhost.
 
-## Tools that made possible this project
+## 🧰 Tools that made possible this project 🧰
 - HTML
 - CSS
 - GitHub
@@ -92,11 +92,10 @@ La aplicación se cargará automáticamente en tu buscador configurado por defec
 - React-google-drive-picker
 - React-dropzone
 
-## Developer
+## 👩‍💻 Developer 👩‍💻
 - [Jessica berriver](https://github.com/itsberriver) ( [ Linkedin here ](https://www.linkedin.com/in/jessicaberriver/))
 
-
-## AGRADECIMIENTOS
+## 👐 AGRADECIMIENTOS 👐
  A Barcelona Digital Talent  y Creu Roja por organizar esta Hackathon y darnos oportunidad a los junior a ser visibilizados por alrededor de 25 empresas. A Mobile World Capital y a Nuewe por impulsar esta Hackathon.Finalmente a Factoria F4, por ser el centro donde me estoy formando y el cual participa en esta hackathon como centro formador.
  
 
