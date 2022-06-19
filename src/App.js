@@ -1,9 +1,12 @@
-import "./stylesheets/App.css"
+import "./App.css"
 import DropZoneComponent from "./components/DropZoneComponent"
 import LoginButton from "./components/LoginButton"
 import  { useEffect } from "react"
 import useDrivePicker from "react-google-drive-picker"
 import React from "react"
+import { BrowserRouter, Link, Routes, Route} from 'react-router-dom';
+import Login from './views/Login'
+
 
 function App() {
 
@@ -30,6 +33,21 @@ useEffect( () => {
 
 	return (
 		<div className="App">
+      <BrowserRouter>
+        <header > 
+          <Link to='/' ></Link>
+          <Link to='/login'></Link>
+        </header>
+
+        <Routes>
+            {/* <Route exact path="/" element={ <Home/> } /> */}
+            <Route exact path="/login" element={ <Login />} />
+
+    
+          </Routes>
+
+
+        </BrowserRouter>
       <>
           <div className = 'dropZone-container'>
           <div className = 'green-container'>
