@@ -1,71 +1,102 @@
-# Getting Started with Create React App
+# 📸  DDROP  📸
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## USAGE
 
-## Available Scripts
 
-In the project directory, you can run:
+## SOBRE EL PROYECTO
+Este es un proyecto que forma parte de la fase online de la Hackathon que se organiza en el marco del proyecto BCN Inclusive Coding. 
 
-### `npm start`
+El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el objetivo de mejorar la experiencia de usuario al subir arhivos a una web y, como extra, hacer que estos se puedan conectar con la API de Google Drive.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#####Las historias de usuarix son las siguientes:
+- Desarrollar las vistas que se observan más arriba.
+- Crear las vistas de Login y Register y que redirijan a la vista que hemos hecho anteriormente.
+- Finalmente, hacer el deploy del proyecto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##### MEJORAS QUE SE PUEDEN IMPLEMENTAR
 
-### `npm test`
+- Permitir al usuario agregar archivos a su cuenta de Google Drive a través de la API de Google (es posible utilizar librerías, no es necesario la implementación directa de la API)
+- Mejorar el diseño y hacerlo responsive
+- Se pueden implementar todo tipo de animaciones
+- Podéis escoger los colores, tipografía e iconos que queráis
+- podéis modular las cards y estructura a vuestro gusto. Si lo hacéis incluid una foto del prototipo si es que lo hacéis a través de un diseño previo de Figma, Sketch, etc.
+- Añadir al readme la calidad de código que devuelve alguna de las siguientes plataformas: Codefactor, Sonarcloud o alguna otra que os guste más.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## DOCUMENTATION
+##### Tecnologías utilizadas
+- React
+- CSS
+- React Drive Api Picker
+- React Dropzone
 
-### `npm run build`
+##### Por qué estas tecnologías
+- **React:** Porque puedo basar el diseño del front a partir de componentes, por lo cual me ahorro sobreescribir código reutilizando componentes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **CSS:** Podría haber usado frameworks como Tailwind pero he decidido utilizar CSS porque al habernos dado el esbozo del front en Figma, este permite inspeccionar el elemento y ver sus características en CSS, por lo cual ahorraría ese tiempo de ir viendo qué estilos tienen sobre la marcha, y al ser una hackathon, es importante ahorrarse tiempo en x cosas para poder completar otras. La segunda 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React Drive Api Picker:** Es la API que he utilizado para poder subir archivos desde tu propia cuenta de Google Drive.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React Dropzone:** Es el hook utilizado para crear el componente y funciones del dropzone.
 
-### `npm run eject`
+- **React Router Dom:** Para poder crear las rutas .
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##### Distribución de carpetas y arquitectura
+El proyecto cuenta con 4 carpetas principales:
+- **components:** Donde se encuentran todos los componentes creados para luego irlos utilizando según necesitemos en las vistas
+- **images:** En donde se encuentran todas las imagenes, en este caso, solo una.
+- **stylesheets:** En donde se encuentran todos los archivos css de los componentes y vistas. Importante destacar que el naming entre el componente y su CSS es exactamente el mismo para de esta forma encontrarlo de forma más rápida y lógica.
+- **views:** En donde se encuentran las vistas, en este caso, la vista de Login y la vista de Home.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+En la raiz de la carpeta SRC, se encuentra el App.js, en donde se encuentran las rutas de la página para indicar qué vista queremos que se muestre según el path marcado.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##### Animación componentes
+Los botones y los inputs del login cuentan con hovers y cambios de estilo al hacer clic o pasar por encima de ellos con el ratón.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Cloning repository
+Si quieres clonar el reposiitorio, ejecuta el siguiente comando:
+`$ git clone https://github.com/itsberriver/dropZone-hackathon.git`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando a ti: -------------------
 
-### Code Splitting
+## Installing Modules
+Para ver el proyecto, necesitaras ejecutar los siguientes comandos para instalar las dependencias utilizadas y de esta forma poder tener el proyecto con todas sus funciones y vistas correctamente.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ `npm install`
+ 
+ `$ npm install --save react-dropzone`
+ 
+ `$ npm i react-google-drive-picker`
 
-### Analyzing the Bundle Size
+ `$ npm install react-router-dom@6`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Run the project
+Para poder abrir ver la página, ejecuta el siguiente comando:
 
-### Making a Progressive Web App
+ `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+La aplicación se cargará automáticamente en tu buscador configurado por defecto en tu dispositivo y será ejecutado en tu localhost.
 
-### Advanced Configuration
+## Tools that made possible this project
+- HTML
+- CSS
+- GitHub
+- Figma
+- VScode
+- React
+- Javascript
+- Github Pages
+- Google Drive
+- React-router-dom
+- React-google-drive-picker
+- React-dropzone
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Developer
+- [Jessica berriver](https://github.com/itsberriver) ( [ Linkedin here ](https://www.linkedin.com/in/jessicaberriver/))
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## AGRADECIMIENTOS
+ A Barcelona Digital Talent  y Creu Roja por organizar esta Hackathon y darnos oportunidad a los junior a ser visibilizados por alrededor de 25 empresas. A Mobile World Capital y a Nuewe por impulsar esta Hackathon.Finalmente a Factoria F4, por ser el centro donde me estoy formando y el cual participa en esta hackathon como centro formador.
+ 
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# dropZone-hackathon
