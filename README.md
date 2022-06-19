@@ -63,7 +63,7 @@ Los botones y los inputs del login cuentan con hovers y cambios de estilo al hac
 Si quieres clonar el reposiitorio, ejecuta el siguiente comando:
 `$ git clone https://github.com/itsberriver/dropZone-hackathon.git`
 
-Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando a ti: https://drop-zone-hackathon.vercel.app/
+Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando aquí.: https://drop-zone-hackathon.vercel.app/
 
 ## ⚒️ Installing Modules ⚒️
 Para ver el proyecto, necesitaras ejecutar los siguientes comandos para instalar las dependencias utilizadas y de esta forma poder tener el proyecto con todas sus funciones y vistas correctamente.
