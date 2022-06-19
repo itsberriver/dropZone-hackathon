@@ -28,7 +28,7 @@ function FormContainer(){
                 <button 
                 className = 'login-button-container'
                 type='submit' 
-                onClick={() => navigate("/")}>
+                onClick={() => navigate("/home")}>
                 Login
                 </button>
         </form>

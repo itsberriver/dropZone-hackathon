@@ -14,11 +14,13 @@ function App() {
         <header > 
           <Link to='/' ></Link>
           <Link to='/login'></Link>
+          <Link to='/home'></Link>
         </header>
 
         <Routes>
-            <Route exact path="/" element={ <Home/> } />
+            <Route exact path="/" element={ <Login/> } />
             <Route exact path="/login" element={ <Login />} />
+            <Route exact path="/home" element={ <Home />} />
     
           </Routes>
 
