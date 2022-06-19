@@ -8,7 +8,11 @@ body{
   margin-top: 98px;
   margin-bottom: 154px;
   background-color: #130F26;
-
+  min-width: 1440px;
+  min-height: 900px;
+  max-width: 1440px;
+  max-height: 900px;
+  
 }
 
 .fileBackground-image{
@@ -87,6 +91,7 @@ div.login-welcome-container{
   transform: matrix(1, 0, -1, 0, 0);
   z-index: -1;
 }
+
 div.dropZone-container button.button {
   margin-bottom: 20rem;
   
