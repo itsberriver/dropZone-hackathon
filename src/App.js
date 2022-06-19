@@ -1,5 +1,4 @@
-import "./App.css"
-// import Button from "./components/Button"
+import "./stylesheets/App.css"
 import DropZoneComponent from "./components/DropZoneComponent"
 import LoginButton from "./components/LoginButton"
 import  { useEffect } from "react"
