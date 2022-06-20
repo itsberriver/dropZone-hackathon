@@ -1,3 +1,10 @@
+body{
+    min-width: 1300px;
+    min-height: 100px;
+    max-width: 1300px;
+    max-height: 100px;
+}
+
 .login-container {
     background: #6AB972;
     width:313px;
@@ -10,6 +17,8 @@
     display: flex;
     justify-content: center;
     padding-top: 4rem; 
+    margin-top: 10rem;
+
 }
 
 input#name{
