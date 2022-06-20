@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../stylesheets/FormContainer.css';
+import Picprofile from '../images/picprofile.png';
 
 function FormContainer(){
 
@@ -8,6 +9,10 @@ function FormContainer(){
 
     return(
         <form className = 'login-form' >
+            <img
+				className = 'profile-image'
+				src = {Picprofile}
+				alt = 'Picprofile'/>
             <div className = 'input-username'>
                     <input 
                         type= 'text' 

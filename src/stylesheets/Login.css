@@ -8,9 +8,8 @@
     color: #ffff;
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding-top: 1.2rem; 
+    padding-top: 4rem; 
 }
 
 input#name{
@@ -33,21 +32,13 @@ button.login-button-container{
     justify-content: center;
     align-items: center;
     margin: auto;
+
     background-color: #316b37;
     color: #fff;
     border: none;
     font-size: 18px;
     border-radius: 50px;
-    width: 16rem;
+    width: 7rem;
     padding: 10px;
-    
+    margin-top: 2rem;
 }
-
-/* form.login-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 80%;
-} */

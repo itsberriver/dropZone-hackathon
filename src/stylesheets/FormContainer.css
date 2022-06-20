@@ -1,10 +1,14 @@
 form.login-form{
     display:flex;
     flex-direction:column;
-    margin: 2rem;
+    margin: auto;
 }
 
 .input-username{
     margin: 0.5rem;
 }
 
+.profile-image{
+    width: 8rem;
+    margin: auto;
+}
