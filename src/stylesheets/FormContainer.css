@@ -7,8 +7,6 @@ body{
     display:flex;
     flex-direction:column;
     margin: auto;
-    
-    
 }
 
 .input-username{
