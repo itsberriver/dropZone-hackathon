@@ -7,7 +7,8 @@ function Login (){
     return( 
         <>
             <section className='login-container'>
-                <FormContainer/>         
+                <FormContainer/>  
+                <p>Project for Barcelona Digital Talent Hackathon</p>       
             </section>
         </>
 
