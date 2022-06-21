@@ -76,7 +76,10 @@ div.login-welcome-container{
   margin-left: -53px;
   margin-right: -55.98px;
   margin-bottom: 423px;
+}
 
+.dropZone-container{
+  margin-left: 2rem;
 }
 
 .green-container{
