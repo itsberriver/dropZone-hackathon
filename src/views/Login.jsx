@@ -8,7 +8,7 @@ function Login (){
         <>
             <section className='login-container'>
                 <FormContainer/>  
-                <p>Project for Barcelona Digital Talent Hackathon</p>       
+                <p className="hackathon-text">Project for Barcelona Digital Talent Hackathon</p>       
             </section>
         </>
 

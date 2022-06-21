@@ -24,12 +24,11 @@ body{
     margin-top: 10rem;
 }
 
-p{
+p.hackathon-text{
     font-size: 1rem;
     font-weight: 300;
     margin: auto;
     margin-top: 32rem;
     opacity: 70%;
-    
 }
 
