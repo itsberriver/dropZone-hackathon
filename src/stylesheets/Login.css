@@ -1,3 +1,4 @@
+
 body{
     min-width: 1300px;
     min-height: 100px;
@@ -11,43 +12,15 @@ body{
     height:406px;
     margin:auto;
     box-sizing: border-box;
-    border-radius: 39px;
+    border-radius: 52px;
     color: #ffff;
+    left: calc(50% - 313px/2 - 0.5px);
+    top: calc(50% - 406px/2 + 5px);
+
 
     display: flex;
     justify-content: center;
     padding-top: 4rem; 
     margin-top: 10rem;
-
 }
 
-input#name{
-    border-radius: 39px;
-    border: none;
-    background: #ffff;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px;
-    width: 80%;
-    margin: auto;
-    color: #47484b;
-
-    display: flex;
-    text-align: center;
-}
-
-button.login-button-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-
-    background-color: #316b37;
-    color: #fff;
-    border: none;
-    font-size: 18px;
-    border-radius: 50px;
-    width: 7rem;
-    padding: 10px;
-    margin-top: 2rem;
-}
