@@ -1,3 +1,7 @@
+.DropZoneComponent{
+    margin-bottom: 10rem;
+}
+
 p{
     color: #FFFFFF;
     position: absolute;
@@ -11,8 +15,6 @@ p{
     margin-left: 250px;
 
     min-width: 2rem;
-
-
 }
 
 form{

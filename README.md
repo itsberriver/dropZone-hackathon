@@ -58,6 +58,7 @@ En la raiz de la carpeta SRC, se encuentra el App.js, en donde se encuentran las
 #### Animación componentes
 Los botones y los inputs del login cuentan con hovers y cambios de estilo al hacer clic o pasar por encima de ellos con el ratón.
 
+Más a más, en el botón de 'Login con Google, tiene una animación específica al hacer hover, en donde se muestra un degradado arcoiris que va cambiando de color.
 
 ## ⚙️ Cloning repository ⚙️
 Si quieres clonar el reposiitorio, ejecuta el siguiente comando:
@@ -106,5 +107,7 @@ La aplicación se cargará automáticamente en tu buscador configurado por defec
 
 ## 👐 AGRADECIMIENTOS 👐
  A Barcelona Digital Talent  y Creu Roja por organizar esta Hackathon y darnos oportunidad a los junior a ser visibilizados por alrededor de 25 empresas. A Mobile World Capital y a Nuewe por impulsar esta Hackathon.Finalmente a Factoria F4, por ser el centro donde me estoy formando y el cual participa en esta hackathon como centro formador.
+
+
  
 
