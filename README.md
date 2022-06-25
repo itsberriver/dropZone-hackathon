@@ -33,6 +33,7 @@ El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el ob
 - CSS
 - React Drive Api Picker
 - React Dropzone
+- React Router Dom
 
 #### Por qué estas tecnologías
 - **React:** Porque puedo basar el diseño del front a partir de componentes, por lo cual me ahorro sobreescribir código reutilizando componentes.
@@ -43,22 +44,22 @@ El reto consiste en resolver un encargo antes del 19 de junio de 2022, con el ob
 
 - **React Dropzone:** Es el hook utilizado para crear el componente y funciones del dropzone.
 
-- **React Router Dom:** Para poder crear las rutas .
+- **React Router Dom:** Para poder crear las rutas entre componentes y vistas.
 
 #### Distribución de carpetas y arquitectura
 El proyecto cuenta con 4 carpetas principales:
-- **components:** Donde se encuentran todos los componentes creados para luego irlos utilizando según necesitemos en las vistas
-- **images:** En donde se encuentran todas las imagenes, en este caso, solo una.
+- **components:** Donde se encuentran todos los componentes creados para luego irlos utilizando según necesite en las vistas
+- **images:** En donde se encuentran todas las imagenes, en este caso, solo hay una.
 - **stylesheets:** En donde se encuentran todos los archivos css de los componentes y vistas. Importante destacar que el naming entre el componente y su CSS es exactamente el mismo para de esta forma encontrarlo de forma más rápida y lógica.
 - **views:** En donde se encuentran las vistas, en este caso, la vista de Login y la vista de Home.
 
-En la raiz de la carpeta SRC, se encuentra el App.js, en donde se encuentran las rutas de la página para indicar qué vista queremos que se muestre según el path marcado.
+En la raiz se encuentra el App.js, en donde se encuentran las rutas de la página para indicar qué vista queremos que se muestre según el path marcado.
 
 
 #### Animación componentes
 Los botones y los inputs del login cuentan con hovers y cambios de estilo al hacer clic o pasar por encima de ellos con el ratón.
 
-Más a más, en el botón de 'Login con Google, tiene una animación específica al hacer hover, en donde se muestra un degradado arcoiris que va cambiando de color.
+Más a más, en el botón de 'Login con Google, tiene una animación específica al hacer hover, en donde se muestra un degradado arcoiris que va cambiando de color y dirección.
 
 ## ⚙️ Cloning repository ⚙️
 Si quieres clonar el reposiitorio, ejecuta el siguiente comando:
