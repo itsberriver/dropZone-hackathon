@@ -1,10 +1,12 @@
 # 📸  DDROP  📸
 
 ## USAGE
-<img width="1516" alt="Captura de Pantalla 2022-06-19 a las 19 51 45" src="https://user-images.githubusercontent.com/99019637/174497041-f4f8a1eb-2dcb-474b-a860-1aa0deb0e232.png">
+![Captura de pantalla 2022-06-26 a las 1 15 44](https://user-images.githubusercontent.com/99019637/175793262-e05ba2ee-4c6e-46f6-9598-fbcdfe4d7981.png)
+![Captura de pantalla 2022-06-26 a las 1 16 18](https://user-images.githubusercontent.com/99019637/175793260-91c54ba7-7c43-4641-8409-ebf36ff729ca.png)
+
 
 <img width="1511" alt="Captura de Pantalla 2022-06-19 a las 19 52 01" src="https://user-images.githubusercontent.com/99019637/174497039-85504fbc-3a7e-496c-88fa-ab560c8e4960.png">
-<img width="1044" alt="Captura de Pantalla 2022-06-19 a las 21 09 29" src="https://user-images.githubusercontent.com/99019637/174497046-ba1cb496-3ece-47c4-82d0-cc22fd421a10.png">
+
 <img width="1526" alt="Captura de Pantalla 2022-06-19 a las 19 52 23" src="https://user-images.githubusercontent.com/99019637/174497058-2e11bd33-4780-42e0-922c-43d5633c0a63.png">
 
 
